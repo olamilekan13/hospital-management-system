@@ -13,7 +13,7 @@
                         <p class="mb-0 font-weight-normal d-none d-sm-block">Check out our Pro version with 5 unique layouts!</p>
                       </div> --}}
                      
-                      --}}
+                    
                     </div>
                   </div>
                 </div>
