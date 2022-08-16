@@ -9,7 +9,7 @@
 
     <meta name="copyright" content="MACode ID, https://macodeid.com/">
 
-    <title>One Health - Medical Center HTML5 Template</title>
+    <title> HOSPITAL MANAGEMENT SYSTEM</title>
 
     <link rel="stylesheet" href="../assets/css/maicons.css">
 
@@ -186,7 +186,7 @@
 
 
 
-    <div class="page-section banner-home bg-image" style="background-image: url(../assets/img/banner-pattern.svg);">
+    {{-- <div class="page-section banner-home bg-image" style="background-image: url(../assets/img/banner-pattern.svg);">
         <div class="container py-5 py-lg-0">
             <div class="row align-items-center">
                 <div class="col-lg-4 wow zoomIn">
@@ -201,7 +201,8 @@
                 </div>
             </div>
         </div>
-    </div> <!-- .banner-home -->
+    </div>  --}}
+    <!-- .banner-home -->
 
     <footer class="page-footer">
         <div class="container">
