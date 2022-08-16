@@ -29,6 +29,29 @@
     <!-- partial -->
     @include('admin.navbar')
         <!-- body -->
+<div class="container-fluid page-body-wrapper">
+  
+
+    <div class="container" align="center" style="padding-top:50px;">
+      {{-- <h1> Add Doctor </h1> --}}
+    <form>
+
+        <div>
+
+            <label> Doctor Name </label>
+            <input type="text" style="color:black;" name="name" placeholder="Doctor's name">
+
+
+        </div>
+
+
+
+
+    </form>
+
+
+    </div>
+ </div>
 
     {{-- @include('admin.body') --}}
 
