@@ -32,16 +32,36 @@
 <div class="container-fluid page-body-wrapper">
   
 
-    <div class="container" align="center" style="padding-top:50px;">
+    <div class="container" align="center" style="padding-top: 100px;">
       {{-- <h1> Add Doctor </h1> --}}
     <form>
 
-        <div>
-
+        <div  style="padding: 15px;">
             <label> Doctor Name </label>
             <input type="text" style="color:black;" name="name" placeholder="Doctor's name">
+        </div>
+
+         <div  style="padding: 15px;">
+            <label> Phone Number </label>
+            <input type="number" style="color:black;" name="number" placeholder="phone number">
+        </div>
+
+         <div  style="padding: 15px;">
+            <label> Doctor Speciality </label>
+            <select>
+            <option value="heart"> heart</option>
+             <option value="eyes">eyes </option>
+              <option value=""> </option>
+               <option value=""> </option>
 
 
+            </select>
+
+        </div>
+
+         <div  style="padding: 15px;">
+            <label> Doctor Name </label>
+            <input type="text" style="color:black;" name="name" placeholder="Doctor's name">
         </div>
 
 
