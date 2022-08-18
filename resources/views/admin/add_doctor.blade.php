@@ -38,9 +38,15 @@
     @include('admin.navbar')
         <!-- body -->
 <div class="container-fluid page-body-wrapper">
-  
+  <div class="container" align="center" style="padding-top: 100px;">
+     @if(session()->has('message'))
 
-    <div class="container" align="center" style="padding-top: 100px;">
+  <div class="alert alert-success">
+  <button type="button" class="close" data-dismiss="alert"> &times </button>
+  {{session()->get('message')}}
+  
+  </div>
+  @endif
       {{-- <h1> Add Doctor </h1> --}}
 
     <form action="{{url('upload_doctor')}}" method="POST" enctype="multipart/form-data">
