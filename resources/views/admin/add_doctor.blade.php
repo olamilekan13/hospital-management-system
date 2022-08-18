@@ -2,6 +2,14 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+    <style type="text/css">
+    label{
+
+        display: inline-block;
+        width : 200px;
+    }
+    </style>
+
     @include('admin.css')
   </head>
   <body>
@@ -46,23 +54,32 @@
             <input type="number" style="color:black;" name="number" placeholder="phone number">
         </div>
 
-         <div  style="padding: 15px;">
+         <div  style="padding: 15px; ">
             <label> Doctor Speciality </label>
-            <select>
-            <option value="heart"> heart</option>
-             <option value="eyes">eyes </option>
-              <option value=""> </option>
-               <option value=""> </option>
-
-
-            </select>
-
+            <select name="speciality" style="color:black; width: 200px;">
+            <option>-- Select--</option>
+            <option value="skin"> skin</option>
+             <option value="heart">heart </option>
+              <option value="eye"> eye</option>
+               <option value="nose"> nose </option>
+                </select>
         </div>
 
          <div  style="padding: 15px;">
-            <label> Doctor Name </label>
-            <input type="text" style="color:black;" name="name" placeholder="Doctor's name">
+            <label> Room No </label>
+            <input type="text" style="color:black;" name="room" placeholder="Doctor's Room No">
         </div>
+
+        <div  style="padding: 15px;">
+            <label> Doctor Image </label>
+            <input type="file" name="file">
+        </div>
+
+        <div  style="padding: 15px;">
+            <input type="submit" class="btn btn-success">
+        </div>
+
+
 
 
 
