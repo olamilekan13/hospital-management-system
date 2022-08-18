@@ -44,7 +44,7 @@
   <div class="alert alert-success">
   <button type="button" class="close" data-dismiss="alert"> &times </button>
   {{session()->get('message')}}
-  
+
   </div>
   @endif
       {{-- <h1> Add Doctor </h1> --}}
@@ -55,17 +55,17 @@
 
         <div  style="padding: 15px;">
             <label> Doctor Name </label>
-            <input type="text" style="color:black;" name="name" placeholder="Doctor's name">
+            <input type="text" style="color:black;" name="name" placeholder="Doctor's name" required>
         </div>
 
          <div  style="padding: 15px;">
             <label> Phone Number </label>
-            <input type="number" style="color:black;" name="number" placeholder="phone number">
+            <input type="number" style="color:black;" name="number" placeholder="phone number" required>
         </div>
 
          <div  style="padding: 15px; ">
             <label> Doctor Speciality </label>
-            <select name="speciality" style="color:black; width: 200px;">
+            <select name="speciality" style="color:black; width: 200px;" required>
             <option>-- Select--</option>
             <option value="skin"> skin</option>
              <option value="heart">heart </option>
@@ -76,12 +76,12 @@
 
          <div  style="padding: 15px;">
             <label> Room No </label>
-            <input type="text" style="color:black;" name="room" placeholder="Doctor's Room No">
+            <input type="text" style="color:black;" name="room" placeholder="Doctor's Room No" required>
         </div>
 
         <div  style="padding: 15px;">
             <label> Doctor Image </label>
-            <input type="file" name="file">
+            <input type="file" name="file" required>
         </div>
 
         <div  style="padding: 15px;">
