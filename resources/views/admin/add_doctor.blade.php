@@ -42,7 +42,10 @@
 
     <div class="container" align="center" style="padding-top: 100px;">
       {{-- <h1> Add Doctor </h1> --}}
-    <form>
+
+    <form action="{{url('upload_doctor')}}" method="POST" enctype="multipart/form-data">
+
+        @csrf
 
         <div  style="padding: 15px;">
             <label> Doctor Name </label>
